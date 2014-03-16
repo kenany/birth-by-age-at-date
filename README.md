@@ -47,6 +47,5 @@ There will always be two possible birth years: `.lowerYear` and `.upperYear`.
 `.upperAge` will _not_ appear if the number of days elasped in `date`'s year is
 equal to the number of days elasped in `currentDate`'s year.
 
-By default, the birth year and current age is with respect to the output of
-`new Date().getTime()`. You can optionally pass your own `currentDate` as a
-third argument.
+By default, `new Date().getTime()` is used to calculate current age. You can
+optionally pass your own `currentDate` as a third argument.
