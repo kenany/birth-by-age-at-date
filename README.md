@@ -1,6 +1,7 @@
 # birth-by-age-at-date
 
 [![Build Status](https://travis-ci.org/KenanY/birth-by-age-at-date.svg?branch=master)](https://travis-ci.org/KenanY/birth-by-age-at-date)
+[![Dependency Status](https://gemnasium.com/KenanY/birth-by-age-at-date.svg)](https://gemnasium.com/KenanY/birth-by-age-at-date)
 
 Calculates the birth year and current age based on the age as of a date. Based
 off, believe it or not, Wikipedia's
