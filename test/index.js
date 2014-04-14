@@ -22,7 +22,7 @@ test('returns TypeError when currentDate is not a Date', function(t) {
 
 test('works', function(t) {
   var TEST_ARRAY = [
-    [[50, new Date(2013, 2, 17), now], {
+    [[50, new Date(2013, 3, 17), now], {
       lowerYear: 1962,
       upperYear: 1963,
       lowerAge: 51
@@ -44,6 +44,6 @@ test('works', function(t) {
   t.plan(TEST_ARRAY.length);
 
   TEST_ARRAY.forEach(function(entry) {
-    t.deepEquals(birth(entry[0][0], entry[0][1]), entry[1]);
+    t.deepEquals(birth(entry[0][0], entry[0][1], entry[0][2]), entry[1]);
   });
 });
