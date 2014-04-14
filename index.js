@@ -23,6 +23,7 @@ function birthByAgeAtDate(age, date, currentDate) {
 
   var days = daysElapsed(date);
   var currentDays = daysElapsed(currentDate);
+
   var ageNow = currentDate.getFullYear() - date.getFullYear() + age;
   if (days === currentDays) {
     birth.lowerAge = ageNow;
