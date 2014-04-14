@@ -20,6 +20,7 @@
     "test": "tape test/index.js"
   },
   "dependencies": {
+    "day-of-year": "^0.1.0",
     "lodash.isdate": "^2.4.1",
     "lodash.now": "^2.4.1"
   },
