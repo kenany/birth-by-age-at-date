@@ -1,6 +1,6 @@
 {
   "name": "birth-by-age-at-date",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calculates the birth year and current age based on the age as of a date",
   "keywords": [
     "birth"
