@@ -3,13 +3,21 @@ var test = require('tape');
 
 var now = new Date(2014, 3, 17);
 
-test('returns TypeError on non-date', function(t) {
+test('returns TypeError when date is not a Date', function(t) {
   t.plan(5);
   t.ok(birth(50) instanceof TypeError);
   t.ok(birth(50, {}) instanceof TypeError);
   t.ok(birth(50, '2013-03-17') instanceof TypeError);
   t.ok(birth(50, [2013, 03, 17]) instanceof TypeError);
-  t.ok(birth(50, 2013, 03, 17) instanceof TypeError);
+  t.ok(birth(50, 2013) instanceof TypeError);
+});
+
+test('returns TypeError when currentDate is not a Date', function(t) {
+  t.plan(4);
+  t.ok(birth(50, new Date(2013, 2, 17), {}) instanceof TypeError);
+  t.ok(birth(50, new Date(2013, 2, 17), '2013-03-17') instanceof TypeError);
+  t.ok(birth(50, new Date(2013, 2, 17), [2013, 03, 17]) instanceof TypeError);
+  t.ok(birth(50, new Date(2013, 2, 17), 2013, 03, 17) instanceof TypeError);
 });
 
 test('works', function(t) {
