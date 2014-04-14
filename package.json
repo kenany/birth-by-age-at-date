@@ -13,6 +13,12 @@
     "index.js",
     "LICENSE.txt"
   ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
   "dependencies": {
     "lodash.isdate": "^2.4.1",
     "lodash.now": "^2.4.1"
