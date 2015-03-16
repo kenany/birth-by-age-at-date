@@ -21,8 +21,8 @@
   },
   "dependencies": {
     "day-of-year": "^0.1.0",
-    "lodash.isdate": "^2.4.1",
-    "lodash.now": "^2.4.1"
+    "lodash.isdate": "^3.0.0",
+    "lodash.now": "^3.0.0"
   },
   "devDependencies": {
     "tape": "^2.4.2"
