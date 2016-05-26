@@ -19,7 +19,8 @@
   "scripts": {
     "pretest": "npm run -s lint",
     "test": "tape test/index.js",
-    "lint": "npm run -s eslint",
+    "lint": "npm run -s travis-lint && npm run -s eslint",
+    "travis-lint": "travis-lint .travis.yml",
     "eslint": "eslint index.js tape/index.js"
   },
   "dependencies": {
@@ -30,6 +31,7 @@
   "devDependencies": {
     "@kenan/eslint-config": "^1.0.1",
     "eslint": "^2.10.2",
-    "tape": "^4.4.0"
+    "tape": "^4.4.0",
+    "travis-lint": "^1.0.0"
   }
 }
