@@ -19,9 +19,11 @@
   "scripts": {
     "pretest": "npm run -s lint",
     "test": "tape test/index.js",
+    "posttest": "npm run -s nsp",
     "lint": "npm run -s travis-lint && npm run -s eslint",
     "travis-lint": "travis-lint .travis.yml",
-    "eslint": "eslint index.js tape/index.js"
+    "eslint": "eslint index.js tape/index.js",
+    "nsp": "nsp check"
   },
   "dependencies": {
     "day-of-year": "^0.1.0",
@@ -31,6 +33,7 @@
   "devDependencies": {
     "@kenan/eslint-config": "^1.0.1",
     "eslint": "^2.10.2",
+    "nsp": "^2.4.0",
     "tape": "^4.4.0",
     "travis-lint": "^1.0.0"
   }
