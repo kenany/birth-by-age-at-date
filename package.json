@@ -17,7 +17,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "tape test/index.js"
+    "pretest": "npm run -s lint",
+    "test": "tape test/index.js",
+    "lint": "npm run -s eslint",
+    "eslint": "eslint index.js tape/index.js"
   },
   "dependencies": {
     "day-of-year": "^0.1.0",
@@ -25,6 +28,8 @@
     "lodash.now": "^4.0.0"
   },
   "devDependencies": {
+    "@kenan/eslint-config": "^1.0.1",
+    "eslint": "^2.10.2",
     "tape": "^4.4.0"
   }
 }
