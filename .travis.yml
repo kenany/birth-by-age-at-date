@@ -1,10 +1,9 @@
 language: node_js
 node_js:
-  - "0.10"
-  - "0.12"
-  - io.js
-git:
-  depth: 10
+  - '4'
+  - '5'
+  - '6'
 sudo: false
 before_install:
   - npm install -g npm
+  - npm --version
