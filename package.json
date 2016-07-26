@@ -31,7 +31,7 @@
     "lodash.now": "^4.0.0"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "^1.0.1",
+    "@kenan/eslint-config": "^2.0.0",
     "eslint": "^2.10.2",
     "nsp": "^2.4.0",
     "tape": "^4.4.0",
