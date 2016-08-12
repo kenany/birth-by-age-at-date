@@ -17,7 +17,7 @@
     "test": "test"
   },
   "scripts": {
-    "pretest": "eslint index.js tape/index.js",
+    "pretest": "eslint index.js test/index.js",
     "test": "tape test/index.js",
     "posttest": "nsp check"
   },
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@kenan/eslint-config": "^2.0.0",
-    "eslint": "^2.10.2",
+    "eslint": "^3.3.0",
     "nsp": "^2.4.0",
     "tape": "^4.4.0"
   }
