@@ -8,6 +8,9 @@
   "repository": "KenanY/birth-by-age-at-date",
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "engines": {
+    "node": "10 || 12 || >=14"
+  },
   "main": "index.js",
   "files": [
     "index.js",
@@ -18,8 +21,7 @@
   },
   "scripts": {
     "pretest": "eslint index.js test/index.js",
-    "test": "tape test/index.js",
-    "posttest": "nsp check"
+    "test": "tape test/index.js"
   },
   "dependencies": {
     "day-of-year": "^0.1.0",
@@ -29,7 +31,6 @@
   "devDependencies": {
     "@kenan/eslint-config": "^2.0.0",
     "eslint": "^3.3.0",
-    "nsp": "^2.4.0",
     "tape": "^4.4.0"
   }
 }
