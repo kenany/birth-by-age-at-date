@@ -20,7 +20,7 @@
     "test": "test"
   },
   "scripts": {
-    "pretest": "eslint index.js test/index.js",
+    "lint": "eslint index.js test/index.js",
     "test": "tape test/index.js"
   },
   "dependencies": {
@@ -29,9 +29,9 @@
     "lodash.now": "^4.0.0"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "^2.0.0",
+    "@kenan/eslint-config": "^8.0.0",
     "@kenan/renovate-config": "^1.1.1",
-    "eslint": "^3.3.0",
+    "eslint": "^7.4.0",
     "tape": "^4.4.0"
   }
 }

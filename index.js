@@ -13,7 +13,11 @@ function birthByAgeAtDate(age, date, currentDate) {
 
   if (!currentDate) {
     var nowDate = new Date(now());
-    currentDate = new Date(nowDate.getFullYear(), nowDate.getMonth(), nowDate.getDate());
+    currentDate = new Date(
+      nowDate.getFullYear(),
+      nowDate.getMonth(),
+      nowDate.getDate()
+    );
   }
 
   var birth = {};

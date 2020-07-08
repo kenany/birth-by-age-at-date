@@ -1,5 +1,5 @@
-var birth = require('../');
 var test = require('tape');
+var birth = require('../');
 
 var now = new Date(2014, 3, 17);
 
