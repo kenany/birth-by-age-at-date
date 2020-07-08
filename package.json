@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "day-of-year": "^0.1.0",
-    "lodash.isdate": "^4.0.0"
+    "lodash.isdate": "^4.0.1"
   },
   "devDependencies": {
     "@kenan/eslint-config": "^8.0.0",
