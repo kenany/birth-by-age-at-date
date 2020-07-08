@@ -1,5 +1,4 @@
 var isDate = require('lodash.isdate');
-var now = require('lodash.now');
 var daysElapsed = require('day-of-year');
 
 function birthByAgeAtDate(age, date, currentDate) {
@@ -12,12 +11,7 @@ function birthByAgeAtDate(age, date, currentDate) {
   }
 
   if (!currentDate) {
-    var nowDate = new Date(now());
-    currentDate = new Date(
-      nowDate.getFullYear(),
-      nowDate.getMonth(),
-      nowDate.getDate()
-    );
+    currentDate = new Date();
   }
 
   var birth = {};
