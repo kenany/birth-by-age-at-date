@@ -36,6 +36,6 @@
     "conventional-changelog-conventionalcommits": "^4.6.0",
     "eslint": "^7.32.0",
     "semantic-release": "^17.4.4",
-    "tape": "^5.3.0"
+    "tape": "^5.3.1"
   }
 }
