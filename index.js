@@ -1,13 +1,18 @@
 var isDate = require('lodash.isdate');
 var daysElapsed = require('day-of-year');
 
+/**
+ * @param {number} age
+ * @param {Date} date
+ * @param {Date} [currentDate]
+ */
 function birthByAgeAtDate(age, date, currentDate) {
   if (!isDate(date)) {
-    return new TypeError('`date` must be a Date');
+    throw new TypeError('`date` must be a Date');
   }
 
   if (currentDate && !isDate(currentDate)) {
-    return new TypeError('`currentDate` must be a Date');
+    throw new TypeError('`currentDate` must be a Date');
   }
 
   if (!currentDate) {
