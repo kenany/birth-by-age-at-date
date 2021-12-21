@@ -1,3 +1,15 @@
+## [3.0.0](https://github.com/KenanY/birth-by-age-at-date/compare/2.0.0...3.0.0) (2021-12-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v10 is no longer supported. `TypeError`s are
+now thrown instead of being returned.
+
+### Features
+
+* drop Node.js v10 support ([5da9031](https://github.com/KenanY/birth-by-age-at-date/commit/5da90312dedecc5521dd8dcd044820d3c50c1a3b))
+
 ## [2.0.0](https://github.com/KenanY/birth-by-age-at-date/compare/1.0.7...2.0.0) (2020-09-13)
 
 
