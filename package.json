@@ -41,7 +41,7 @@
     "@types/lodash.isdate": "^4.0.6",
     "@types/tape": "^4.13.2",
     "conventional-changelog-conventionalcommits": "^4.6.3",
-    "eslint": "^7.32.0",
+    "eslint": "^8.10.0",
     "semantic-release": "^18.0.1",
     "tape": "^5.4.0",
     "type-coverage": "^2.19.0",
