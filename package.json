@@ -40,7 +40,7 @@
     "@tsconfig/node12": "^1.0.9",
     "@types/lodash.isdate": "^4.0.7",
     "@types/tape": "^4.13.2",
-    "conventional-changelog-conventionalcommits": "^4.6.3",
+    "conventional-changelog-conventionalcommits": "^5.0.0",
     "eslint": "^7.32.0",
     "semantic-release": "^19.0.2",
     "tape": "^5.5.3",
