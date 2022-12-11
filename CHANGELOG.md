@@ -1,3 +1,14 @@
+## [4.0.0](https://github.com/KenanY/birth-by-age-at-date/compare/3.0.0...4.0.0) (2022-12-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v12 is no longer supported.
+
+### Features
+
+* drop Node.js v12 support ([73e8aba](https://github.com/KenanY/birth-by-age-at-date/commit/73e8abab2fcae41a27d715e01dbe2ad1fb39ebd7))
+
 ## [3.0.0](https://github.com/KenanY/birth-by-age-at-date/compare/2.0.0...3.0.0) (2021-12-21)
 
 
