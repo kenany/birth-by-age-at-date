@@ -14,35 +14,35 @@ function isTypeError(error) {
 test('throws TypeError when date is not a Date', function(t) {
   t.plan(5);
 
-  // @ts-expect-error
+  // @ts-expect-error Testing runtime assertions.
   t.throws(() => birth(50), isTypeError);
 
-  // @ts-expect-error
+  // @ts-expect-error Testing runtime assertions.
   t.throws(() => birth(50, {}), isTypeError);
 
-  // @ts-expect-error
+  // @ts-expect-error Testing runtime assertions.
   t.throws(() => birth(50, '2013-03-17'), isTypeError);
 
-  // @ts-expect-error
+  // @ts-expect-error Testing runtime assertions.
   t.throws(() => birth(50, [2013, 3, 17]), isTypeError);
 
-  // @ts-expect-error
+  // @ts-expect-error Testing runtime assertions.
   t.throws(() => birth(50, 2013), isTypeError);
 });
 
 test('returns TypeError when currentDate is not a Date', function(t) {
   t.plan(4);
 
-  // @ts-expect-error
+  // @ts-expect-error Testing runtime assertions.
   t.throws(() => birth(50, new Date(2013, 2, 17), {}), isTypeError);
 
-  // @ts-expect-error
+  // @ts-expect-error Testing runtime assertions.
   t.throws(() => birth(50, new Date(2013, 2, 17), '2013-03-17'), isTypeError);
 
-  // @ts-expect-error
+  // @ts-expect-error Testing runtime assertions.
   t.throws(() => birth(50, new Date(2013, 2, 17), [2013, 3, 17]), isTypeError);
 
-  // @ts-expect-error
+  // @ts-expect-error Testing runtime assertions.
   t.throws(() => birth(50, new Date(2013, 2, 17), 2013, 3, 17), isTypeError);
 });
 
