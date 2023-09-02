@@ -1,3 +1,14 @@
+## [5.0.0](https://github.com/kenany/birth-by-age-at-date/compare/4.0.0...5.0.0) (2023-09-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v14 and v16 are no longer supported.
+
+### Features
+
+* drop Node.js v14 and v16 ([6a96be6](https://github.com/kenany/birth-by-age-at-date/commit/6a96be67289e3b85f87fdd57c88375d737dc65c3))
+
 ## [4.0.0](https://github.com/KenanY/birth-by-age-at-date/compare/3.0.0...4.0.0) (2022-12-11)
 
 
