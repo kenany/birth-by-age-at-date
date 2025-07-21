@@ -30,19 +30,16 @@ function birthByAgeAtDate(age, date, currentDate) {
   const ageNow = currentDate.getFullYear() - date.getFullYear() + age;
   if (days === currentDays) {
     birth.lowerAge = ageNow;
-  }
-  else {
+  } else {
     if (days > currentDays) {
       birth.lowerAge = ageNow - 1;
-    }
-    else {
+    } else {
       birth.lowerAge = ageNow;
     }
 
     if (days < currentDays) {
       birth.upperAge = ageNow + 1;
-    }
-    else {
+    } else {
       birth.upperAge = ageNow;
     }
   }
