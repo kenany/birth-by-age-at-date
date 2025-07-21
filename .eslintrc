@@ -1,6 +1,0 @@
-{
-  "extends": ["@kenan", "@kenan/eslint-config/ts-for-js"],
-  "parserOptions": {
-    "project": true
-  }
-}
