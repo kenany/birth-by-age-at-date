@@ -1,3 +1,13 @@
+## [6.0.0](https://github.com/kenany/birth-by-age-at-date/compare/5.0.0...6.0.0) (2025-07-21)
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v18 is no longer supported.
+
+### Features
+
+* drop Node.js v18 support ([a6d5756](https://github.com/kenany/birth-by-age-at-date/commit/a6d575639a7d0bf41af20f583dba1f5fef899b6d))
+
 ## [5.0.0](https://github.com/kenany/birth-by-age-at-date/compare/4.0.0...5.0.0) (2023-09-02)
 
 
