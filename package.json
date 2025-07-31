@@ -45,6 +45,6 @@
     "tape": "^5.9.0",
     "type-coverage": "^2.29.7",
     "typescript": "^5.8.3",
-    "ultracite": "5.0.47"
+    "ultracite": "5.1.2"
   }
 }
