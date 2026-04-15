@@ -1,11 +1,14 @@
 {
   "name": "birth-by-age-at-date",
-  "version": "6.0.0",
+  "version": "0.0.0-semantic-release",
   "description": "Calculates the birth year and current age based on the age as of a date",
   "keywords": [
     "birth"
   ],
-  "repository": "github:kenany/birth-by-age-at-date",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenany/birth-by-age-at-date.git"
+  },
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "engines": {
@@ -21,28 +24,24 @@
   },
   "scripts": {
     "type-check": "tsc",
-    "posttype-check": "npm run -s type-coverage",
+    "posttype-check": "pnpm run type-coverage",
     "type-coverage": "type-coverage --at-least 100 --detail --strict",
     "lint": "biome check .",
     "release": "semantic-release",
-    "pretest": "npm run -s type-check",
+    "pretest": "pnpm run type-check",
     "test": "tape test/index.js",
-    "posttest": "npm run -s lint"
+    "posttest": "pnpm run lint"
   },
   "dependencies": {
     "day-of-year": "^0.1.0",
     "lodash.isdate": "^4.0.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.9",
+    "@biomejs/biome": "2.4.12",
     "@kenan/biome-config": "1.0.6",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/git": "10.0.1",
     "@tsconfig/node20": "20.1.9",
     "@types/lodash.isdate": "4.0.9",
     "@types/tape": "5.8.1",
-    "conventional-changelog-conventionalcommits": "9.3.1",
-    "semantic-release": "25.0.3",
     "tape": "5.9.0",
     "type-coverage": "2.29.7",
     "typescript": "6.0.2"
