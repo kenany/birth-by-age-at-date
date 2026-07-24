@@ -34,8 +34,8 @@ importers:
         specifier: 5.8.1
         version: 5.8.1
       conventional-changelog-conventionalcommits:
-        specifier: 9.3.1
-        version: 9.3.1
+        specifier: 10.2.1
+        version: 10.2.1
       semantic-release:
         specifier: 25.0.8
         version: 25.0.8(supports-color@7.2.0)(typescript@6.0.3)
@@ -137,6 +137,10 @@ packages:
     engines: {node: ^22.11.0 || ^24}
     peerDependencies:
       semantic-release: ^24.0.0 || ^25.0.0
+
+  '@conventional-changelog/template@1.2.1':
+    resolution: {integrity: sha512-TzlTVpKPjaqW6qOYjQcYUDuGsLCNsvFHVBXkYGTAnf5V37jCWrE5haKNXzz0WZUtVHjrpV76L1buANjwXMfT8w==}
+    engines: {node: '>=22'}
 
   '@kenan/biome-config@1.0.6':
     resolution: {integrity: sha512-cTfVydG24brCCwwP2bv6C8CzoEnGBZjdOVXKCTd4yNbXc978DX52NEuywjuLO9jFjwvVovC1LCnnXdkAkQjAdw==}
@@ -468,9 +472,9 @@ packages:
     resolution: {integrity: sha512-6gfI3otXK5Ph5DfCOI1dblr+kN3FAm5a97hYoQkqNZxOaYa5WKfXH+AnpsmS+iUH2mgVC2Cg2Qw9m5OKcmNrIg==}
     engines: {node: '>=18'}
 
-  conventional-changelog-conventionalcommits@9.3.1:
-    resolution: {integrity: sha512-dTYtpIacRpcZgrvBYvBfArMmK2xvIpv2TaxM0/ZI5CBtNUzvF2x0t15HsbRABWprS6UPmvj+PzHVjSx4qAVKyw==}
-    engines: {node: '>=18'}
+  conventional-changelog-conventionalcommits@10.2.1:
+    resolution: {integrity: sha512-n4Kr1HFMTf3iMbES0TMxKIcYtUUv4rKqyQQp2JwfOEfFCOfGT3Tq4mCyJ8S9/YPyWhydjfKrrvnyl+gCjA+mJQ==}
+    engines: {node: '>=22'}
 
   conventional-changelog-writer@8.4.0:
     resolution: {integrity: sha512-HHBFkk1EECxxmCi4CTu091iuDpQv5/OavuCUAuZmrkWpmYfyD816nom1CvtfXJ/uYfAAjavgHvXHX291tSLK8g==}
@@ -1970,6 +1974,8 @@ snapshots:
       semantic-release: 25.0.8(supports-color@7.2.0)(typescript@6.0.3)
       semver: 7.8.5
 
+  '@conventional-changelog/template@1.2.1': {}
+
   '@kenan/biome-config@1.0.6(@biomejs/biome@2.5.5)':
     dependencies:
       '@biomejs/biome': 2.5.5
@@ -2365,9 +2371,9 @@ snapshots:
     dependencies:
       compare-func: 2.0.0
 
-  conventional-changelog-conventionalcommits@9.3.1:
+  conventional-changelog-conventionalcommits@10.2.1:
     dependencies:
-      compare-func: 2.0.0
+      '@conventional-changelog/template': 1.2.1
 
   conventional-changelog-writer@8.4.0:
     dependencies:
