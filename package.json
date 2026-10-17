@@ -46,7 +46,7 @@
     "@types/tape": "5.8.1",
     "conventional-changelog-conventionalcommits": "9.3.1",
     "semantic-release": "25.0.9",
-    "tape": "5.10.2",
+    "tape": "5.10.3",
     "type-coverage": "2.30.3",
     "typescript": "6.0.3"
   }
