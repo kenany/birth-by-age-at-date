@@ -9,7 +9,7 @@ off, believe it or not, Wikipedia's
 You know someone who was 50 years old on January 15, 2013. You would like to
 know what their birth year might be and/or their current age:
 
-``` javascript
+```javascript
 var birthByAgeAtDate = require('birth-by-age-at-date');
 
 birthByAgeAtDate(50, new Date(2013, 0, 15));
@@ -23,13 +23,13 @@ birthByAgeAtDate(50, new Date(2013, 0, 15));
 
 ## Installation
 
-``` bash
+```bash
 $ npm install birth-by-age-at-date
 ```
 
 ## API
 
-``` javascript
+```javascript
 var birthByAgeAtDate = require('birth-by-age-at-date');
 ```
 
@@ -38,10 +38,10 @@ var birthByAgeAtDate = require('birth-by-age-at-date');
 Calculates the birth year and current age based on the knowledge that the
 individual was _Number_ `age` at _Date_ `date`. Returns an `Object`:
 
-  - `.lowerYear`
-  - `.upperYear`
-  - `.lowerAge`
-  - `.upperAge` (may be `undefined`)
+- `.lowerYear`
+- `.upperYear`
+- `.lowerAge`
+- `.upperAge` (may be `undefined`)
 
 There will always be two possible birth years: `.lowerYear` and `.upperYear`.
 `.upperAge` will _not_ appear if the number of days elapsed in `date`'s year is
